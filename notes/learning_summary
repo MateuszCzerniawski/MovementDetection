@@ -1,0 +1,10 @@
+number of epochs and learning rate were less important than optimiser
+    rmsprop had outstandingly good results
+    adam lead to mid results, but was generally closer to to rmsprop
+    sgd had significantly worse results than other optimisers
+when it comes to learning rates and epochs
+    more epochs - generally better, best for 100
+    learning rate above 0.005 was too much
+    only sgd could benefit from higher
+    best learning rates are 0.0002, 0.0005
+

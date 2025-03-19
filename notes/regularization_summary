@@ -1,0 +1,6 @@
+influence of different regularization methods:
+    no_reg - quite good results
+    l1 - terrible results
+    l2 - mid results, very scattered
+
+no need to explore particular values, just don't use regularization

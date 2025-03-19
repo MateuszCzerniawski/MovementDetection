@@ -1,0 +1,10 @@
+Most important is amount of hidden layers:
+    best results for 2,3 hidden layers
+    2 is slightly better when it comes to accuracy
+    3 is better when it comes to mae
+Less important is first layer
+    256 gives the best result
+    can be due too much more nets with 256 as first hidden layer
+    64 also gives quite good results
+
+Best shape for net is 3 hidden layers with 256 as first layer

@@ -1,0 +1,16 @@
+Movement Detection
+    .venv - virtual environment
+    deprecated - scripts that are no longer used
+    graphs - visualised results of tests (in folders) + visualization of data and model predictions
+    notes - summary of tests and visualizations
+    tests - scripts used for conducting tests (correcting paths by adding ../ can be mandatory
+    tests results - results of tests in csv format
+    UCI HAR Dataset - data source
+
+DataLoader - functions used to load data
+Main - script creating a few graphs (look at paths) with predictions made by(probably) best possible model
+Neural - functions used for using neural nets
+Unification - work in progess script for summarising all tests results in one csv file
+Util - utility functions
+requirements - list of libraries used
+info - you've just read it

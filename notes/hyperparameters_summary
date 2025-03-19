@@ -1,0 +1,19 @@
+activation_func:
+    elu - better results overall
+    relu - more scattered results
+loss_func:
+    binary_crossentropy - best accuracy
+    mse - good loss
+    categorical_crossentropy - uniform scatter of results
+optimizer:
+    adam - good mae
+    sgd - mid
+    rmsprop - great accuracy
+regularizer:
+    no - best accuracy and loss
+    l1 - quite bad
+    l2 - best mae
+
+best accuracy: elu, binary_crossentropy, rmsprop, no regularization
+best loss: elu, mse, adam, no regularization
+best mae: elu, binary_crossentropy, adam, l2

@@ -1,0 +1,8 @@
+epochs:
+    20 and 100 gave best results
+    20 was the best when it comes to accuracy, not consistent
+    100 generally gave great results in all metrics
+batches:
+    best results for batches of size 128
+
+best combination is 100 epochs witch batches 128
