@@ -1,0 +1,47 @@
+# Ignorowanie plików i katalogów PyCharm
+.idea/
+
+# Ignorowanie plików konfiguracyjnych
+*.iml
+
+# Pliki wirtualnego środowiska
+venv/
+.env/
+
+# Pliki cache i kompilacji
+__pycache__/
+*.py[cod]
+
+# Pliki logów i tymczasowe
+*.log
+*.tmp
+
+# Pliki baz danych i migracji
+*.sqlite3
+migrations/
+
+# Pliki testowe i raporty
+htmlcov/
+*.cover
+*.pyc
+.tox/
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db
+
+# Pliki zależności
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignorowanie plików Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignorowanie plików generowanych przez PyCharm
+/.idea/
+/workspace.xml
+/tasks.xml
+/usage.statistics.xml
+/remote*/
+/shelf/
+/sync/
